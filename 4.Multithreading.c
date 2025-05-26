@@ -1,3 +1,5 @@
+gcc --o filename filename.c  -lpthread
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
