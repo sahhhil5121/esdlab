@@ -31,7 +31,7 @@ int main (void)
             message = "Parent Process";
             i = 1;
             no = getpid ();
-            NO1 = getpid ();
+            NO1 = getppid ();
             break;
     }
 
